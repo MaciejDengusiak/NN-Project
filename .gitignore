@@ -1,69 +1,72 @@
-# ==========================
-# Python
-# ==========================
-__pycache__/
-*.py[cod]
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
+# # ==========================
+# # Python
+# # ==========================
+# __pycache__/
+# *.py[cod]
+# *.so
+# *.egg
+# *.egg-info/
+# dist/
+# build/
 
-# Virtual environments
-env/
-venv/
-.venv/
-ENV/
-.Python
+# # Virtual environments
+# env/
+# venv/
+# .venv/
+# ENV/
+# .Python
 
-# Jupyter
-.ipynb_checkpoints/
+# # Jupyter
+# .ipynb_checkpoints/
 
-# Logs and outputs
-logs/
-*.log
-*.csv
-*.txt
-events_log.csv
+# # Logs and outputs
+# logs/
+# *.log
+# *.csv
+# *.txt
+# events_log.csv
 
-# Checkpoints and models
-*.pth
-*.pt
-*.ckpt
-*.onnx
-*.tflite
+# # Checkpoints and models
+# *.pth
+# *.pt
+# *.ckpt
+# *.onnx
+# *.tflite
 
-# Datasets
-data/*
-!data/prepare_data.py
-!data/README.md
+# # Datasets
+# data/*
+# !data/prepare_data.py
+# !data/README.md
 
-# Videos, images, raw input/output
-*.mp4
-*.avi
-*.mov
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.webm
-outputs/
-frames/
-snapshots/
-inference/
+# # Videos, images, raw input/output
+# *.mp4
+# *.avi
+# *.mov
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.webm
+# outputs/
+# frames/
+# snapshots/
+# inference/
 
-# Streamlit and visualization cache
-.streamlit/
-visualizations/__pycache__/
+# # Streamlit and visualization cache
+# .streamlit/
+# visualizations/__pycache__/
 
-# Editor & OS specific
-.DS_Store
-*.swp
-*.swo
-.idea/
-.vscode/
-*.bak
-*.tmp
+# # Editor & OS specific
+# .DS_Store
+# *.swp
+# *.swo
+# .idea/
+# .vscode/
+# *.bak
+# *.tmp
 
-# Notebooks (optional)
-*.ipynb
+# # Notebooks (optional)
+# *.ipynb
+
+
+data
