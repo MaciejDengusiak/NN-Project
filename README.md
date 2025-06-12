@@ -28,3 +28,10 @@ The system consists of the following modules:
 6. **Visualization** – Real-time feedback via OpenCV and Streamlit dashboard
 
 ---
+
+
+# How to use
+## Downloading the data
+To download coco keypoints dataset, simply run the `./data/download_coco.sh` script.   
+
+

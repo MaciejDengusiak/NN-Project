@@ -6,10 +6,10 @@
 
 # Todo workfow
 - Data:
-  - [ ] Keypoints Detection
-    - [ ] Find and dowlnoad data
-    - [ ] Preprocess data and create datasets
-    - [ ] Create dataloaders
+  - [x] Keypoints Detection
+    - [x] Find and dowlnoad data
+    - [x] Preprocess data and create datasets
+    - [x] Create dataloaders
 
   - [ ] Actions Recognition
     - [ ] Find and dowlnoad data
