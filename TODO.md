@@ -24,7 +24,7 @@
     - [ ] Image Video -> Action
 
   - [ ] Implement
-    - [ ] Imgae -> Keypoints
+    - [x] Imgae -> Keypoints
     - [ ] Image Video -> Action
     - [ ] Keypoints Vide -> Action
 
@@ -35,3 +35,5 @@
   - [ ] Compare few types of loss'es
   - [ ] Compare Keypoints vs Image Action detection
 
+
+- [ ] (optional) use py venv
