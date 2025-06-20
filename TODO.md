@@ -4,6 +4,16 @@
 - inspect trained models - what kernels were found and how do some layers behave based on given inpt
 - (optional) try to find some optimal input for some output
 
+# IsDone
+- Keypoints Detection
+  - Data downloading script
+  - Dataset preparation/preprocessing + dataloader + model + training + wandb:
+    - Simple keypoint position L1 mean loss + visibility BCE mean loss, on entire image with all keypoints
+    - same thing but with Object Keypoint Similarity loss (https://cocodataset.org/#keypoints-eval)
+    - Similar approach but with segmenting image into grid and delegating keypoint to its center-of-weight cell
+    - Similar approach, but with creating 'cell' not by grid, but by bounding box of human body
+    - Keypoint detection with heatmap (WIP - GT heatmap generation not working properly)
+
 # Todo workfow
 - Data:
   - [x] Keypoints Detection
@@ -20,15 +30,13 @@
 
 - Models:
   - [ ] Find
-    - [ ] Imgae -> Keypoints
-    - [ ] Image Video -> Action
+    - [ ] Image -> Keypoints
+    - [ ] (optional) Image Video -> Action
 
   - [ ] Implement
-    - [x] Imgae -> Keypoints
+    - [x] Image -> Keypoints
     - [ ] Image Video -> Action
     - [ ] Keypoints Vide -> Action
-
-- [ ] Train Implemented models
 
 - Check results
   - [ ] Comapre preview of few samples
