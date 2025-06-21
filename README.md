@@ -33,5 +33,5 @@ The system consists of the following modules:
 # How to use
 ## Downloading the data
 To download coco keypoints dataset, simply run the `./data/download_coco.sh` script.   
-
+To download actions dataset, run the `./data/download_hmdb51.sh` script.  
 
